@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloomy — Mastery learning for K–12 families</title>
+<meta name="description" content="Bloomy is mastery learning for K–12. Every skill taught, proven at 90%, and locked in, in about 25 minutes, so kids finish faster and keep what they learn. ELA now; Math July 31, 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="index.html" aria-label="Bloomy home">
+      <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+        <g fill="#2bc77d">
+          <circle cx="14" cy="6.5" r="4.6"/>
+          <circle cx="21.2" cy="11.8" r="4.6"/>
+          <circle cx="18.4" cy="20.2" r="4.6"/>
+          <circle cx="9.6" cy="20.2" r="4.6"/>
+          <circle cx="6.8" cy="11.8" r="4.6"/>
+        </g>
+        <circle cx="14" cy="14" r="3.6" fill="#101410"/>
+      </svg>
+      <span class="logo-word">bloomy</span>
+    </a>
+
+    <nav class="aud-switch" aria-label="Audience">
+      <a href="index.html" class="active" aria-current="page">For families</a>
+      <a href="schools.html">For schools</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a class="signin" href="#">Sign in</a>
+      <a class="btn btn-dark" href="#pricing">Get started</a>
+      <button class="nav-burger" aria-label="Open menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#101410" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu">
+    <a href="#pricing">Get started</a>
+    <a href="#">Sign in</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <h1 class="h1">Learn it once. <br>Get your afternoons back.</h1>
+    <p class="lede">One K–12 ELA, Math, or Writing skill at a time: a short lesson, practice with a Socratic tutor, then a no-hints test that takes 90% to pass. About 25 minutes, and it never needs re-teaching.</p>
+
+    <div class="hero-ctas">
+      <a class="btn btn-dark btn-lg" href="#pricing">Get started</a>
+      <a class="btn btn-outline btn-lg" href="#how">See how it works</a>
+    </div>
+
+    <div class="hero-trust">
+      <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Backed by Y Combinator</span>
+      <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Founded by a former teacher</span>
+      <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>30-day money-back guarantee</span>
+    </div>
+
+    <div class="hero-stage">
+      <div class="art art--sun hero-sticker reveal">
+        <span class="art-tag">PHOTO</span>
+        <p>Sticker-style cut-out, thick white outline: kid mid-air fist-pump next to a laptop showing a passed Summit</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px;">
+        <div class="float-card reveal">
+          <span class="fc-tag" style="color:#7e5bd8;background:#efe9fb;">BloomyBot</span>
+          <p>Socratic hints the moment your child gets stuck. Never the answer.</p>
+        </div>
+        <div class="float-card reveal">
+          <span class="fc-tag" style="color:#b07708;background:#fdf1d7;">Spaced review</span>
+          <p>Skills come back until they stay. Learned in September, still there in May.</p>
+        </div>
+      </div>
+
+      <div class="mock reveal" role="group" aria-label="Product preview: a Bloomy skill in progress">
+        <div class="mock-top">
+          <span class="grade">Grade 4 · ELA</span>
+          <span class="streak">4-day streak</span>
+        </div>
+        <p class="skill-name">Main idea &amp; supporting details</p>
+        <div class="stages">
+          <div class="stage done">
+            <span class="dot"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+            <div><strong>Base Camp</strong><span>Lesson complete</span></div>
+          </div>
+          <div class="stage now">
+            <span class="dot">2</span>
+            <div><strong>Climb</strong><span>Guided practice · Level 2 of 3</span></div>
+          </div>
+          <div class="stage locked">
+            <span class="dot">3</span>
+            <div><strong>Summit</strong><span>Mastery check · 90% to pass</span></div>
+          </div>
+        </div>
+        <div class="mock-meter">
+          <div class="meter-label"><span>Progress to Summit</span><span>72%</span></div>
+          <div class="bar"><i></i></div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:20px;">
+        <div class="float-card reveal">
+          <span class="fc-tag" style="color:#177a4e;background:#e0f6ea;">Zero busywork</span>
+          <p>Placement by skill. No time spent re-learning what they already know.</p>
+        </div>
+        <div class="float-card reveal">
+          <span class="fc-tag" style="color:#177a4e;background:#e0f6ea;">Parent recap</span>
+          <p>See exactly what stuck this week, in plain English.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROOF STRIP (scrolling partners) ================= -->
+<div class="proof-strip">
+  <span class="ps-label">Trusted by schools across the country</span>
+  <div class="marquee" aria-label="Partner schools">
+    <div class="marquee-track">
+      <div class="marquee-set">
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Baystate Academy Charter Public School<span class="m-loc">· Springfield, MA</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Edna M. Scott Elementary<span class="m-loc">· Leland, MS</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Unbound Stockton Community School<span class="m-loc">· Stockton, CA</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Leland School District<span class="m-loc">· Mississippi Delta</span></span>
+      </div>
+      <div class="marquee-set" aria-hidden="true">
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Baystate Academy Charter Public School<span class="m-loc">· Springfield, MA</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Edna M. Scott Elementary<span class="m-loc">· Leland, MS</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Unbound Stockton Community School<span class="m-loc">· Stockton, CA</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Leland School District<span class="m-loc">· Mississippi Delta</span></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= WHY BLOOMY (comparison) ================= -->
+<section id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2">Passing isn't the same as learning.</h2>
+      <p class="lede">Most apps call 60% done and move on. Bloomy doesn't.</p>
+    </div>
+
+    <div class="compare-card reveal">
+      <div class="compare-scroll">
+        <table class="compare">
+          <thead>
+            <tr>
+              <th scope="col"><span class="visually-hidden">Feature</span></th>
+              <th scope="col" class="col-them">Typical learning apps</th>
+              <th scope="col" class="col-bloomy">Bloomy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Your child's time</td>
+              <td class="col-them"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#b6bdb8" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Hours of busywork and re-teaching</span></td>
+              <td class="col-bloomy"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>About 25 focused minutes per skill</span></td>
+            </tr>
+            <tr>
+              <td>The passing bar</td>
+              <td class="col-them"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#b6bdb8" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>60% often counts as done</span></td>
+              <td class="col-bloomy"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>90%, on every skill</span></td>
+            </tr>
+            <tr>
+              <td>Missed concepts</td>
+              <td class="col-them"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#b6bdb8" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Never seen again</span></td>
+              <td class="col-bloomy"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Retaught, then retested</span></td>
+            </tr>
+            <tr>
+              <td>Months later</td>
+              <td class="col-them"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#b6bdb8" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Quietly forgotten</span></td>
+              <td class="col-bloomy"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Spaced review until it stays</span></td>
+            </tr>
+            <tr>
+              <td>AI help</td>
+              <td class="col-them"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#b6bdb8" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Hands over the answer</span></td>
+              <td class="col-bloomy"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Socratic, and locked during tests</span></td>
+            </tr>
+            <tr>
+              <td>What parents see</td>
+              <td class="col-them"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#b6bdb8" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Points and streaks</span></td>
+              <td class="col-bloomy"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>A plain-English mastery map</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="section-alt" id="how">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2">Every skill is a climb.<br>Bloomy is the guide.</h2>
+      <p class="lede">Each skill is one complete learning cycle in about 25 minutes: a lesson, guided practice, then a real test of mastery.</p>
+    </div>
+
+    <div class="mountain-grid">
+      <div class="m-card reveal">
+        <div class="art art--green stage-art">
+          <p>ART — cozy basecamp tent and lantern at the foot of a big, friendly flat-illustration mountain</p>
+        </div>
+        <span class="step" style="top:130px;">Stage 1</span>
+        <h3>Base Camp</h3>
+        <p>The lesson: step-by-step instruction with worked examples that think out loud.</p>
+      </div>
+      <div class="m-card reveal">
+        <div class="art art--sun stage-art">
+          <p>ART — switchback trail up the mountainside, small climber figure halfway, sun overhead</p>
+        </div>
+        <span class="step" style="top:130px;">Stage 2</span>
+        <h3>Climb</h3>
+        <p>Guided practice across three levels, with BloomyBot scaffolding whenever your child gets stuck.</p>
+      </div>
+      <div class="m-card reveal">
+        <div class="art art--rose stage-art">
+          <p>ART — flag planted on the peak, tiny climber with both arms up, confetti of birds</p>
+        </div>
+        <span class="step" style="top:130px;">Stage 3</span>
+        <h3>Summit</h3>
+        <p>A no-hints mastery check. 90% to pass, or Bloomy reteaches before moving on.</p>
+      </div>
+    </div>
+
+    <p class="curr-note">Every child starts with the <strong>Compass Check</strong>, a free diagnostic that finds the right starting point.</p>
+  </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section>
+  <div class="wrap">
+
+    <div class="feature-row">
+      <div class="fr-copy">
+        <h2 class="h2">BloomyBot never just gives the answer.</h2>
+        <p class="lede">A Socratic tutor that asks the next-smallest question, so your child does the thinking. Locked during mastery checks, so the chatbot never becomes a cheatbot.</p>
+      </div>
+      <div class="fr-media">
+        <div class="chat reveal" role="group" aria-label="Example BloomyBot conversation">
+          <span class="chat-tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7e5bd8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H4l2-3a8 8 0 1 1 15-5z"/></svg>
+            BloomyBot · Socratic mode
+          </span>
+          <div class="bubble student">I don't get what the main idea is.</div>
+          <div class="bubble bot">Let's zoom out. Read the title again. What does it tell you the passage is mostly about?</div>
+          <div class="bubble student">Maybe how ants work together?</div>
+          <div class="bubble bot">Good instinct. Now find one sentence in the first paragraph that backs that up.</div>
+          <p class="chat-note">BloomyBot stays locked during mastery checks.</p>
+          <div class="art art--lilac mini-sticker">
+            <span class="art-tag">ART</span>
+            <p>Friendly sprout-bot mascot doodle, waving, one leaf antenna</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CURRICULUM ================= -->
+<section class="section-alt" id="curriculum">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2">Nearly 2,000 skills. Every one taught, practiced, and proven.</h2>
+      <p class="lede">Every skill sits in a mapped K–12 sequence. Bloomy knows which ones your child owns, which are missing, and exactly which one comes next.</p>
+    </div>
+
+    <div class="curr-grid">
+      <div class="curr-card reveal">
+        <div class="art art--green cc-art">
+          <p>ART — stack of well-worn paperbacks with a bookmark trailing out, flat editorial illustration</p>
+        </div>
+        <div class="cc-head">
+          <h3>ELA</h3>
+          <span class="cc-count">~700 skills · K–12</span>
+        </div>
+        <p class="cc-sub">Available now</p>
+        <div class="domain-chips">
+          <span class="dchip" style="background:#e0f6ea;color:#177a4e;">Reading Literature · ~105</span>
+          <span class="dchip" style="background:#e0f6ea;color:#177a4e;">Informational Text · ~100</span>
+          <span class="dchip" style="background:#e0f6ea;color:#177a4e;">Vocabulary · ~65</span>
+          <span class="dchip" style="background:#e0f6ea;color:#177a4e;">Grammar · ~100</span>
+          <span class="dchip" style="background:#e0f6ea;color:#177a4e;">Mechanics · ~80</span>
+          <span class="dchip" style="background:#e0f6ea;color:#177a4e;">Writing · ~245</span>
+        </div>
+      </div>
+
+      <div class="curr-card reveal">
+        <div class="art art--lilac cc-art">
+          <p>ART — tumbling geometric solids, a protractor, and one graphed curve, flat editorial illustration</p>
+        </div>
+        <div class="cc-head">
+          <h3>Math</h3>
+          <span class="badge-soon">Launches July 31, 2026</span>
+        </div>
+        <p class="cc-sub">~1,275 skills · K–12 · Built on Illustrative Mathematics. Preorder now; your guarantee starts at launch.</p>
+        <div class="domain-chips">
+          <span class="dchip" style="background:#efe9fb;color:#7e5bd8;">Number &amp; Operations · ~390</span>
+          <span class="dchip" style="background:#efe9fb;color:#7e5bd8;">Geometry &amp; Measurement · ~310</span>
+          <span class="dchip" style="background:#efe9fb;color:#7e5bd8;">Algebra &amp; Expressions · ~270</span>
+          <span class="dchip" style="background:#efe9fb;color:#7e5bd8;">Data &amp; Probability · ~160</span>
+          <span class="dchip" style="background:#efe9fb;color:#7e5bd8;">Functions · ~125</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= RESULTS (dark band) ================= -->
+<section class="dark-band">
+  <div class="wrap">
+    <div class="db-hero">
+      <div class="db-stat"><div class="huge">½</div></div>
+      <div class="db-copy">
+        <h2 class="h2">The same growth, in about half the time.</h2>
+        <p>In early pilots, students reached their NWEA MAP growth targets in roughly half the projected time. Less time at the desk. More time for everything else.</p>
+      </div>
+    </div>
+
+    <div class="db-stats">
+      <div class="db-tile reveal"><b>~25 min</b><span>from lesson to proven, per skill</span></div>
+      <div class="db-tile reveal"><b>0 min</b><span>spent re-learning skills your child already owns</span></div>
+      <div class="db-tile reveal"><b>3–5</b><span>short sessions a week is plenty</span></div>
+    </div>
+
+    <div class="db-quotes">
+      <div class="q-card reveal">
+        <p>"Students are steadily progressing — some are now working at an 11th- or 12th-grade level in one or more domains. They're invested in the work and really taking their time to do their best."</p>
+        <div class="q-who">
+          <span class="avatar">KC</span>
+          <div><b>Kellie Carlucci</b><span>Director of Curriculum &amp; Instruction, Baystate Academy Charter Public School</span></div>
+        </div>
+      </div>
+      <div class="q-card reveal">
+        <p>"Bloomy helps us differentiate across classrooms while keeping students connected to grade-level expectations — and students get the support they need without waiting for an adult to intervene every time."</p>
+        <div class="q-who">
+          <span class="avatar">JT</span>
+          <div><b>Jessica Thomas</b><span>Principal, Edna M. Scott Elementary · Leland School District</span></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="pol-title">Where the saved afternoons go</p>
+    <div class="polaroids">
+      <figure class="polaroid reveal">
+        <div class="pol-ph art--green">PHOTO — kid mid-kick at soccer practice, golden-hour light, grass stains, real team jersey</div>
+        <figcaption>4:15pm · practice</figcaption>
+      </figure>
+      <figure class="polaroid reveal">
+        <div class="pol-ph art--sun">PHOTO — half-built robotics kit spread across a bedroom floor, hands in frame, parts everywhere</div>
+        <figcaption>Saturday · the build</figcaption>
+      </figure>
+      <figure class="polaroid reveal">
+        <div class="pol-ph art--rose">PHOTO — kid reading a comic in a backyard hammock, one shoe off, dog underneath</div>
+        <figcaption>After dinner · their pick</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:0;">
+      <h2 class="h2">Simple pricing. No contracts.</h2>
+      <p class="lede">Per student, per subject. Every plan includes BloomyBot, the weekly parent recap, and the full mastery curriculum. Cancel anytime online.</p>
+      <div class="toggle" role="group" aria-label="Billing period">
+        <button type="button" class="bill-btn active" data-bill="monthly" aria-pressed="true">Monthly</button>
+        <button type="button" class="bill-btn" data-bill="annual" aria-pressed="false">Annual <span class="save">· Save up to 40%</span></button>
+      </div>
+    </div>
+
+    <div class="price-grid">
+      <div class="price-card featured reveal">
+        <span class="pc-flag">Available now</span>
+        <h3>ELA</h3>
+        <p class="pc-sub">Reading, vocabulary, grammar, and writing. K–12.</p>
+        <div class="pc-price"><b class="amt" data-monthly="$39" data-annual="$279">$39</b><span class="per" data-monthly="/month" data-annual="/year">/month</span></div>
+        <p class="pc-per">per student · <span class="equiv" data-monthly="billed monthly" data-annual="that's about $23/month">billed monthly</span></p>
+        <ul class="pc-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>~700 skills across 6 domains</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>BloomyBot Socratic tutoring</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Free Compass Check placement</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Weekly parent recap</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Read-aloud &amp; dyslexia-friendly settings</li>
+        </ul>
+        <a class="btn btn-dark" href="#">Get started</a>
+      </div>
+
+      <div class="price-card reveal">
+        <h3>Math</h3>
+        <p class="pc-sub">Built on Illustrative Mathematics. Launches July 31, 2026.</p>
+        <div class="pc-price"><b class="amt" data-monthly="$39" data-annual="$279">$39</b><span class="per" data-monthly="/month" data-annual="/year">/month</span></div>
+        <p class="pc-per">per student · <span class="equiv" data-monthly="billed monthly" data-annual="that's about $23/month">billed monthly</span></p>
+        <ul class="pc-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>~1,275 skills across 5 strands</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Same mastery engine as ELA</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Preorder now, start at launch</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Guarantee window starts at launch</li>
+        </ul>
+        <a class="btn btn-outline" href="#">Preorder Math</a>
+      </div>
+
+      <div class="price-card reveal">
+        <h3>Writing Studio</h3>
+        <p class="pc-sub">Long-form composition coaching, beyond ELA's writing skills. Add-on to ELA.</p>
+        <div class="pc-price"><b class="amt" data-monthly="$19" data-annual="$139">$19</b><span class="per" data-monthly="/month" data-annual="/year">/month</span></div>
+        <p class="pc-per">per student · <span class="equiv" data-monthly="billed monthly" data-annual="that's about $12/month">billed monthly</span></p>
+        <ul class="pc-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Full drafting &amp; revision coaching</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Feedback that teaches, not rewrites</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Requires an ELA plan</li>
+        </ul>
+        <a class="btn btn-outline" href="#">Add Writing Studio</a>
+      </div>
+    </div>
+
+    <div class="guarantee">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#177a4e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+      30-day money-back guarantee on your first purchase. No usage minimums, no questions asked.
+    </div>
+
+    <div class="esa reveal">
+      <div>
+        <h3>Pay $0 out of pocket with ESA funds</h3>
+        <p>Bloomy works with ESA and scholarship programs in Arizona, Florida, Texas, and four more states. Many families cover the full cost.</p>
+      </div>
+      <a class="btn btn-dark" href="#">See the funding guide</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2">Fair questions.</h2>
+    </div>
+    <div class="faq">
+
+      <div class="faq-item">
+        <button aria-expanded="false">Is there a free trial?
+          <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#101410" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a"><p>Not a timed trial. Instead: the Compass Check placement diagnostic is free before you buy, and your first purchase carries a 30-day money-back guarantee with no usage minimum. Try it for a month with nothing at risk.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <button aria-expanded="false">How much time does it take each day?
+          <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#101410" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a"><p>One skill is a complete learning cycle in about 25 minutes: lesson, practice, and mastery check. Most families run one skill per sitting, three to five days a week per subject.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <button aria-expanded="false">What if my child is behind, or ahead of, grade level?
+          <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#101410" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a"><p>That's exactly who Bloomy is built for. The Compass Check places your child by skill, not by grade label, and every plan spans the full K–12 sequence. A 6th grader can shore up 4th-grade gaps and push into 8th-grade skills in the same week.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <button aria-expanded="false">Is BloomyBot safe for my child?
+          <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#101410" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a"><p>BloomyBot only tutors: it scaffolds schoolwork and declines everything else. Any unsafe or distressed message triggers an immediate email alert to you. It's locked during assessments, and our AI providers are contractually barred from training on your child's data.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <button aria-expanded="false">Can I use ESA or scholarship funds?
+          <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#101410" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a"><p>Yes. Bloomy works with programs in Arizona, Florida, Texas, Alabama, Arkansas, New Hampshire, and Alaska, through marketplaces like ClassWallet and Odyssey, direct invoicing, or reimbursement. Many families pay $0 out of pocket. See the funding guide for your state.</p></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= STILL NOT CONVINCED ================= -->
+<section class="final-cta">
+  <div class="wrap">
+    <h2 class="h1">Still not convinced?</h2>
+    <p class="lede">Fair. Run the free Compass Check and see exactly where your child stands, before you pay for anything.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-dark btn-lg" href="#pricing">Run the free Compass Check</a>
+      <a class="btn btn-outline btn-lg" href="schools.html">Book a school demo</a>
+    </div>
+    <div class="statchips" style="margin-top:26px;">
+      <div class="statchip"><b>$0</b><span>to see where your child stands</span></div>
+      <div class="statchip"><b>30 days</b><span>money-back, no usage minimum</span></div>
+      <div class="statchip"><b>2 min</b><span>to cancel online, anytime</span></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html">
+          <svg width="26" height="26" viewBox="0 0 28 28" aria-hidden="true">
+            <g fill="#2bc77d">
+              <circle cx="14" cy="6.5" r="4.6"/><circle cx="21.2" cy="11.8" r="4.6"/><circle cx="18.4" cy="20.2" r="4.6"/><circle cx="9.6" cy="20.2" r="4.6"/><circle cx="6.8" cy="11.8" r="4.6"/>
+            </g>
+            <circle cx="14" cy="14" r="3.6" fill="#101410"/>
+          </svg>
+          bloomy
+        </a>
+        <p>Mastery learning for K–12. Every skill taught, practiced, and proven, one climb at a time.</p>
+      </div>
+      <div class="foot-col">
+        <h3>Explore</h3>
+        <a href="#how">How it works</a>
+        <a href="#curriculum">Curriculum</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="foot-col">
+        <h3>Schools</h3>
+        <a href="schools.html">Why Bloomy</a>
+        <a href="schools.html#demo">Book a demo</a>
+      </div>
+      <div class="foot-col">
+        <h3>Company</h3>
+        <a href="mailto:hello@bloomylearning.com">Contact</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 Bloomy. Designed and built in San Francisco, California.</span>
+      <span>COPPA compliant · FERPA-aligned · Your child's data is never sold</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

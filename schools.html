@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloomy for Schools — Mastery learning for every classroom</title>
+<meta name="description" content="Bloomy gives schools mastery-based K–12 ELA today, with Math launching July 31, 2026. Real-time teacher dashboard, i-Ready and NWEA MAP integration, and Socratic AI tutoring that can't be gamed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="index.html" aria-label="Bloomy home">
+      <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+        <g fill="#2bc77d">
+          <circle cx="14" cy="6.5" r="4.6"/><circle cx="21.2" cy="11.8" r="4.6"/><circle cx="18.4" cy="20.2" r="4.6"/><circle cx="9.6" cy="20.2" r="4.6"/><circle cx="6.8" cy="11.8" r="4.6"/>
+        </g>
+        <circle cx="14" cy="14" r="3.6" fill="#101410"/>
+      </svg>
+      <span class="logo-word">bloomy</span>
+    </a>
+
+    <nav class="aud-switch" aria-label="Audience">
+      <a href="index.html">For families</a>
+      <a href="schools.html" class="active" aria-current="page">For schools</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a class="signin" href="#">Sign in</a>
+      <a class="btn btn-dark" href="#demo">Book a demo</a>
+      <button class="nav-burger" aria-label="Open menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#101410" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu">
+    <a href="#demo">Book a demo</a>
+    <a href="#">Sign in</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero hero--schools">
+  <div class="wrap">
+    <div class="hero-split">
+      <div>
+        <h1 class="h1">Every student placed by skill. Every gap worked in order.</h1>
+        <p class="lede">Mastery-based ELA for K–12 classrooms, with Math launching July 31, 2026. Bloomy reads your i-Ready and NWEA MAP data, places every student by skill, and holds a 90% bar. No seat time wasted on skills students already own.</p>
+        <div class="hero-ctas" style="justify-content:flex-start;">
+          <a class="btn btn-dark btn-lg" href="#demo">Book a 30-minute demo</a>
+          <a class="btn btn-outline btn-lg" href="#outcomes">See pilot results</a>
+        </div>
+        <div class="compliance" style="margin-top:26px;">
+          <span class="comp-chip">COPPA</span>
+          <span class="comp-chip">FERPA</span>
+          <span class="comp-chip">No training on student data</span>
+          <span class="comp-chip">IEP / 504 accommodations</span>
+        </div>
+      </div>
+
+      <div class="demo-form" id="demo">
+        <h2 class="df-title">Schedule a demo</h2>
+        <p class="df-sub">30 minutes. We'll walk through placement, the teacher dashboard, and pilot options for your school.</p>
+        <form>
+          <div class="df-row">
+            <div>
+              <label for="fn">First name</label>
+              <input id="fn" type="text" required autocomplete="given-name">
+            </div>
+            <div>
+              <label for="ln">Last name</label>
+              <input id="ln" type="text" required autocomplete="family-name">
+            </div>
+          </div>
+          <label for="em">Work email</label>
+          <input id="em" type="email" required autocomplete="email">
+          <p class="hint">Please use your school or district email address.</p>
+          <label for="org">School or district</label>
+          <input id="org" type="text" required autocomplete="organization">
+          <label for="role">Role</label>
+          <select id="role" required>
+            <option value="">Select your role</option>
+            <option>District administrator</option>
+            <option>School administrator</option>
+            <option>Teacher</option>
+            <option>Other</option>
+          </select>
+          <button class="btn btn-dark" type="submit">Schedule a demo</button>
+          <p class="df-note">We'll reply within one school day to set up a time. No spam, ever.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROOF STRIP (scrolling partners) ================= -->
+<div class="proof-strip">
+  <span class="ps-label">In classrooms across three states</span>
+  <div class="marquee" aria-label="Partner schools">
+    <div class="marquee-track">
+      <div class="marquee-set">
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Baystate Academy Charter Public School<span class="m-loc">· Springfield, MA</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Edna M. Scott Elementary<span class="m-loc">· Leland, MS</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Unbound Stockton Community School<span class="m-loc">· Stockton, CA</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Leland School District<span class="m-loc">· Mississippi Delta</span></span>
+      </div>
+      <div class="marquee-set" aria-hidden="true">
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Baystate Academy Charter Public School<span class="m-loc">· Springfield, MA</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Edna M. Scott Elementary<span class="m-loc">· Leland, MS</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Unbound Stockton Community School<span class="m-loc">· Stockton, CA</span></span>
+        <span class="m-chip"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-4 10 4-10 4z"/><path d="M6 11v4c0 1.6 2.7 3 6 3s6-1.4 6-3v-4"/></svg>Leland School District<span class="m-loc">· Mississippi Delta</span></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= DIAGNOSTIC / PLACEMENT ================= -->
+<section>
+  <div class="wrap">
+    <div class="feature-row">
+      <div class="fr-copy">
+        <h2 class="h2">Starts from the data you already have.</h2>
+        <p class="lede">Bloomy ingests i-Ready and NWEA MAP scores, fills the gaps with its own Compass Check, and hands every student a skill-level plan on day one.</p>
+        <ul class="fr-list">
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Placement by skill, not by grade label</li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Below-level students catch up without losing grade-level exposure</li>
+        </ul>
+      </div>
+      <div class="fr-media">
+        <div class="art art--blue reveal" style="min-height:340px;">
+          <span class="art-tag">IMAGE</span>
+          <p>Flat illustration: a class roster flows through a funnel labeled "i-Ready · MAP · Compass Check," then fans out into individual trails starting at different heights on one shared mountain.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TEACHER DASHBOARD ================= -->
+<section class="section-alt" id="teachers">
+  <div class="wrap">
+    <div class="feature-row flip">
+      <div class="fr-copy">
+        <h2 class="h2">Ask your roster a question. Get an answer in seconds.</h2>
+        <p class="lede">The dashboard speaks teacher, not spreadsheet. Describe what you want to know and get groupings, intervention lists, and parent-meeting prep on demand.</p>
+        <ul class="fr-list">
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Live roster: on track, low usage, needs support</li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Smart skill-based grouping for small-group instruction</li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Built for intervention blocks and MTSS workflows</li>
+        </ul>
+      </div>
+      <div class="fr-media">
+        <div class="chat reveal" role="group" aria-label="Example teacher dashboard query">
+          <span class="chat-tag" style="color:#24479f;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2d5bd1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H4l2-3a8 8 0 1 1 15-5z"/></svg>
+            Teacher dashboard
+          </span>
+          <div class="bubble student">Help me prepare for a parent meeting with Destiny's parents.</div>
+          <div class="bubble bot" style="background:#e6edfb;">Destiny has mastered 34 skills this term and is working two levels above placement in Vocabulary. Grammar is her slow lane: three skills in review. Here's a one-page summary you can print.</div>
+          <p class="chat-note">Real-time data, in plain English.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OUTCOMES (dark band) ================= -->
+<section class="dark-band dark-band--blue" id="outcomes">
+  <div class="wrap">
+    <div class="db-hero">
+      <div class="db-stat"><div class="huge">½</div></div>
+      <div class="db-copy">
+        <h2 class="h2">Growth targets, hit in about half the projected time.</h2>
+        <p>Measured against NWEA MAP growth projections in pilot schools. Faster mastery means more instructional hours for the students who need them.</p>
+      </div>
+    </div>
+
+    <div class="db-stats">
+      <div class="db-tile reveal"><b>~25 min</b><span>per skill cycle, fits any block schedule</span></div>
+      <div class="db-tile reveal"><b>0 min</b><span>re-teaching skills students already mastered</span></div>
+      <div class="db-tile reveal"><b>~2,000</b><span>skills across ELA and Math, K–12</span></div>
+    </div>
+
+    <div class="db-quotes">
+      <div class="q-card reveal">
+        <p>"Bloomy helps us differentiate across classrooms while keeping students connected to grade-level expectations — and students get the support they need without waiting for an adult to intervene every time."</p>
+        <div class="q-who">
+          <span class="avatar">JT</span>
+          <div><b>Jessica Thomas</b><span>Principal, Edna M. Scott Elementary · Leland School District</span></div>
+        </div>
+      </div>
+      <div class="q-card reveal">
+        <p>"Bloomy has been a real positive during our intervention block — students get on-level ELA learning through high-quality texts, and it helps us give every learner what they need across diverse groups."</p>
+        <div class="q-who">
+          <span class="avatar">PH</span>
+          <div><b>Phillip Hon</b><span>Founder &amp; School Director, Unbound Stockton Community School</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="art art--blue reveal" style="min-height:220px;margin-top:40px;">
+      <span class="art-tag">PHOTO</span>
+      <p>Wide candid classroom shot: intervention block in progress, students on Chromebooks at mixed tables, teacher kneeling beside one desk mid-conversation. Natural light, no posed smiles.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INTEGRATIONS / TRUST ================= -->
+<section id="integrations" class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="h2">Everything your IT and compliance review will ask for.</h2>
+    </div>
+    <div class="axs-grid">
+      <div class="axs-card reveal">
+        <div class="m-icon" style="background:#e6edfb;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/></svg></div>
+        <h3>Student privacy first</h3>
+        <p>COPPA and FERPA compliant. AI providers are contractually barred from training on student data. Data is never sold.</p>
+      </div>
+      <div class="axs-card reveal">
+        <div class="m-icon" style="background:#e6edfb;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12h8M12 8v8"/><circle cx="12" cy="12" r="9"/></svg></div>
+        <h3>Benchmark integrations</h3>
+        <p>i-Ready ELA and NWEA MAP scores flow straight into placement. No re-testing students you've already tested.</p>
+      </div>
+      <div class="axs-card reveal">
+        <div class="m-icon" style="background:#e6edfb;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+        <h3>Works on what you have</h3>
+        <p>Runs in the browser on Chromebooks, iPads, or anything else in your cart. Nothing to install.</p>
+      </div>
+      <div class="axs-card reveal">
+        <div class="m-icon" style="background:#e6edfb;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#24479f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16M6 19l4-8 3 5 2-3 3 6"/></svg></div>
+        <h3>Accessibility built in</h3>
+        <p>Read-aloud everywhere, dyslexia-tuned text, keyboard and screen-reader support, IEP/504 accommodations.</p>
+      </div>
+    </div>
+
+    <p class="curr-note" style="margin-top:32px;">School and district pricing is scoped to your roster. <a href="#demo" style="font-weight:800;text-decoration:underline;">Book a demo</a> and we'll put a quote together the same week.</p>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="final-cta">
+  <div class="wrap">
+    <h2 class="h1">Bring mastery to your building.</h2>
+    <p class="lede">A 30-minute demo covers placement, the teacher dashboard, and what a pilot looks like at your school.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-dark btn-lg" href="#demo">Book a demo</a>
+      <a class="btn btn-outline btn-lg" href="mailto:hello@bloomylearning.com">Email us instead</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html">
+          <svg width="26" height="26" viewBox="0 0 28 28" aria-hidden="true">
+            <g fill="#2bc77d">
+              <circle cx="14" cy="6.5" r="4.6"/><circle cx="21.2" cy="11.8" r="4.6"/><circle cx="18.4" cy="20.2" r="4.6"/><circle cx="9.6" cy="20.2" r="4.6"/><circle cx="6.8" cy="11.8" r="4.6"/>
+            </g>
+            <circle cx="14" cy="14" r="3.6" fill="#101410"/>
+          </svg>
+          bloomy
+        </a>
+        <p>Mastery learning for K–12. Every skill taught, practiced, and proven, one climb at a time.</p>
+      </div>
+      <div class="foot-col">
+        <h3>Explore</h3>
+        <a href="index.html#how">How it works</a>
+        <a href="index.html#curriculum">Curriculum</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#faq">FAQ</a>
+      </div>
+      <div class="foot-col">
+        <h3>Schools</h3>
+        <a href="schools.html">Why Bloomy</a>
+        <a href="#demo">Book a demo</a>
+      </div>
+      <div class="foot-col">
+        <h3>Company</h3>
+        <a href="mailto:hello@bloomylearning.com">Contact</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 Bloomy. Designed and built in San Francisco, California.</span>
+      <span>COPPA compliant · FERPA-aligned · Student data is never sold</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
