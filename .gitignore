@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node (if tooling is ever added)
+node_modules/
+
+# Local
+*.log
+.env
+
+# Local tooling
+.claude/
